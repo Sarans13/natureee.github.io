@@ -101,7 +101,7 @@ span{
 }
 
 .background-content p{
-    color: black;
+    color: white;
     font-size: 2.5rem;
     margin-top: 3rem;
     margin-bottom: 10rem;
@@ -118,6 +118,13 @@ span{
     html{
     font-size: 60%;
 }
+}
+
+@media (max-width:870px){
+
+    .background-content a{
+        margin-left: 40%;
+    }
 }
 
 @media (max-width:768px){
@@ -165,6 +172,12 @@ span{
 
 }
 
+@media (max-width: 660px){
+
+    .background-content a{
+        margin-left: 37.5%;
+    }
+}
 
 @media (max-width:560px){
 
@@ -182,10 +195,17 @@ span{
 
 }
 
-@media (max-width:360px){
+@media (max-width:415px){
 
     html{
-        font-size: 45%;
+        font-size: 44.5%;
+    }
+
+}
+
+@media (max-width:353px){
+    .background-content a{
+        margin-left: 32%;
     }
 
 }
